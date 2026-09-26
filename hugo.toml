@@ -19,6 +19,11 @@ timeZone = "Africa/Johannesburg"
   ShowRssButtonInSectionTermList = false
   mainSections = ["posts"]
 
+  [params.label]
+    text = "Accountable Impact Commons"
+    icon = "/favicon-32x32.png"
+    iconHeight = 26
+
   [params.homeInfoParams]
     Title = "Accountable Impact Commons"
     Content = "A Lab at LF Decentralized Trust. We maintain the Anthropogenic Impact Accounting Ontology Suite, a semantic framework for representing impact accounting data in a machine-readable format, so that claims about impact can be exchanged, linked to evidence and verified across platforms."
