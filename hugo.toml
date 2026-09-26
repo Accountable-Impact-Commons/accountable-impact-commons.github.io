@@ -16,19 +16,19 @@ timeZone = "Africa/Johannesburg"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
   mainSections = ["posts"]
 
   [params.homeInfoParams]
     Title = "Accountable Impact Commons"
-    Content = "An LF Decentralized Trust lab building open, machine-readable standards for accounting for the impact of human activity. We publish ontologies and tooling that let claims about impact be stated, substantiated and audited."
+    Content = "A Lab at LF Decentralized Trust. We maintain the Anthropogenic Impact Accounting Ontology Suite, a semantic framework for representing impact accounting data in a machine-readable format, so that claims about impact can be exchanged, linked to evidence and verified across platforms."
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Accountable-Impact-Commons"
   [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
+    name = "discord"
+    url = "https://discord.gg/hyperledger"
 
 [menu]
   [[menu.main]]
