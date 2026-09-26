@@ -33,6 +33,23 @@ The Anthropogenic Impact Accounting Ontology Suite provides a comprehensive sema
 
 The ontology files at W3ID can be retrieved over HTTP by automated or manual means, so you can load them directly from code as well as open them in a browser.
 
+<!-- TO EXPAND: "How does it work in practice" paragraph.
+     From Kit's pad: "Somebody with technical expertise needs to fill in this
+     section." The pad's stub read: "The ontology files at W3ID can be accessed
+     via http by automated or manual means..."
+     Worth covering: content negotiation at the W3ID redirect, which
+     serialisations are served (Turtle, RDF/XML, JSON-LD), and a short worked
+     snippet loading an ontology from code. -->
+
+<!-- TO EXPAND: "What" section, i.e. products or services that can be developed.
+     Kit's pad lists these as bullets still to be written:
+       - What can you do with AIAO
+       - Example use cases
+       - Integration on a software level
+       - Links to How-To's for existing data
+       - Links to documentation and user resources
+     The "Worked examples" section below covers the fourth bullet only. -->
+
 ## Worked examples
 
 Our GitHub repository provides guides for annotating your data with AIAO, whether you want to do it [manually](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/1-gs3492) or [with LLM assistance](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/2-ecoregistry126).
