@@ -1,0 +1,18 @@
+Accountable Impact Commons
+Copyright The Accountable Impact Commons Authors
+
+This product includes software developed at Accountable Impact Commons
+(https://accountableimpactcommons.org/), a Lab of LF Decentralized Trust,
+a Series of LF Projects, LLC.
+
+Source code in this repository is licensed under the Apache License,
+Version 2.0; see LICENSE. Site content under content/ is licensed under the
+Creative Commons Attribution 4.0 International License; see LICENSE-docs.
+
+This repository builds against the Hugo PaperMod theme, included as a git
+submodule under themes/PaperMod and licensed under the MIT License,
+Copyright (c) 2020 nanxiaobei and adityatelange. The built site embeds
+assets derived from that theme.
+
+The site logo and favicon set derive from a design proposal by
+Alfonso Govela Thomae.
