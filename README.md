@@ -19,3 +19,16 @@ Add a Markdown file under `content/posts/` with front matter:
     ---
 
 Set `draft: true` to keep it out of the published site.
+
+## Licence
+
+This repository follows the licensing set out in section 6 of the
+[LF Decentralized Trust Labs charter](https://github.com/LF-Decentralized-Trust-labs/governance).
+
+| What | Licence | File |
+|---|---|---|
+| Source code: Hugo templates and partials, `hugo.toml`, the deploy workflow, scripts | Apache License 2.0 | [`LICENSE`](LICENSE) |
+| Site content: everything under `content/`, meaning the posts and pages | CC BY 4.0 | [`LICENSE-docs`](LICENSE-docs) |
+
+Copyright attribution is recorded in [`NOTICE`](NOTICE). The PaperMod theme is a
+git submodule under `themes/PaperMod` and carries its own MIT licence.

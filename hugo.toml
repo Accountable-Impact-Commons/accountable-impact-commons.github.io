@@ -26,7 +26,11 @@ timeZone = "Africa/Johannesburg"
 
   [params.homeInfoParams]
     Title = "Accountable Impact Commons"
-    Content = "A Lab at LF Decentralized Trust. We maintain the Anthropogenic Impact Accounting Ontology Suite, a semantic framework for representing impact accounting data in a machine-readable format, so that claims about impact can be exchanged, linked to evidence and verified across platforms."
+    Content = """
+Accountable Impact Commons is a Lab at [LF Decentralized Trust](https://www.lfdecentralizedtrust.org/), part of the Linux Foundation. The Lab maintains the Anthropogenic Impact Accounting Ontology Suite, a semantic framework for representing anthropogenic impact accounting data in a machine-readable format.
+
+The suite currently consists of four specialised ontologies, each published at a permanent W3ID address that resolves to its documentation and machine-readable files.
+"""
 
   [[params.socialIcons]]
     name = "github"
