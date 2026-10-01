@@ -33,29 +33,55 @@ The Anthropogenic Impact Accounting Ontology Suite provides a comprehensive sema
 
 The ontology files at W3ID can be retrieved over HTTP by automated or manual means, so you can load them directly from code as well as open them in a browser.
 
-<!-- TO EXPAND: "How does it work in practice" paragraph.
-     From Kit's pad: "Somebody with technical expertise needs to fill in this
-     section." The pad's stub read: "The ontology files at W3ID can be accessed
-     via http by automated or manual means..."
-     Worth covering: content negotiation at the W3ID redirect, which
-     serialisations are served (Turtle, RDF/XML, JSON-LD), and a short worked
-     snippet loading an ontology from code. -->
+### How does it work in practice?
 
-<!-- TO EXPAND: "What" section, i.e. products or services that can be developed.
-     Kit's pad lists these as bullets still to be written:
-       - What can you do with AIAO
-       - Example use cases
-       - Integration on a software level
-       - Links to How-To's for existing data
-       - Links to documentation and user resources
-     The "Worked examples" section below covers the fourth bullet only. -->
+The AIAO ontology files are published through persistent W3ID identifiers and can be retrieved over HTTP by people or software. Applications can use AIAO classes, properties and axioms in OWL, TTL or JSON-LD format, and can combine them with other ontologies. Browsers render the ontologies in human-friendly HTML format.
 
-## Worked examples
+AIAO provides a shared semantic model rather than prescribing a database or software platform. The beauty of semantic web technology is its composability. Systems can map their own data models to AIAO terms so that information created in different systems can be interpreted and linked consistently. Validation rules, for example SHACL shapes, can be used alongside the ontology to check whether data meet application-specific requirements.
 
-Our GitHub repository provides guides for annotating your data with AIAO, whether you want to do it [manually](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/1-gs3492) or [with LLM assistance](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/2-ecoregistry126).
+The ontology is therefore not itself a database, reporting platform or verification system. It provides a common language from which such systems can be built and through which independently developed systems can exchange information without first agreeing on the internal structure of each other's databases.
 
-## Contact and support
+### What can you do with AIAO?
 
-For general information, see the rest of this site.
+AIAO can provide the semantic layer for systems that create, exchange, analyse or verify information about activities and their impacts.
 
-To chat, join the [LFDT Discord](https://discord.gg/hyperledger). There is a channel for the [#accountable-impact-commons Lab](https://discord.com/channels/905194001349627914/1540006318125879346), which you can activate under Channels and Roles.
+It can be used in monitoring and evaluation systems, digital MRV platforms, impact registries, knowledge graphs, assurance systems and APIs. Existing systems can also map their internal data structures to AIAO to improve interoperability without replacing their underlying databases. AIAO can be used even where the application does not use semantic web technologies. For example, the relationships between entities and classes, each with their own properties in the ontologies that make up AIAO, can be expressed in other data architectures such as RDBMS schemas.
+
+### Example use cases
+
+**Publish an impact claim**. Represent an activity, the indicators quantifying its inputs, outputs, outcomes and impacts, the methodologies used to calculate these indicators, the evidence on which the calculations are based and the resulting impact claim in machine-readable form.
+
+**Trace claims to evidence**. Link a claim to the observations, calculations, sources and methodology that support it.
+
+**Validate submissions**. Use SHACL or similar rules to test whether data and relationships that are required by a specific rule or standard are present.
+
+**Integrate data** from different systems. Map heterogeneous data models to common AIAO classes and properties so that information can be queried or combined.
+
+**Represent methodologies**. Describe indicators, variables, calculation steps, baseline conditions and evidence requirements in a machine-readable form.
+
+**Support independent verification**. Allow reviewers or software agents to inspect the indicators, methodologies, instruments, data and sources associated with a claim.
+
+**Build federated registries**. Publish interoperable claims and evidence across multiple organisations without requiring a single central database.
+
+### How-To's for existing data
+
+Existing impact data can be mapped to the AIA ontology suite without changing the original source data. Practical examples are available for:
+
+- Manual annotation – mapping an existing project and its data to AIA classes and properties without LLM assistance. [Manual annotation example](https://github.com/aiaont/aiao/tree/main/examples/1-gs3492)
+- LLM-assisted annotation – using an LLM to help map existing project documentation and data to the ontology. [LLM-assisted annotation example](https://github.com/aiaont/aiao/tree/main/examples/2-ecoregistry126)
+
+Examples contributed by users are collected in the LFDT Community registry of annotated data. [Community registry of annotated data](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/828047391/Community+registry+of+annotated+data)
+
+### Documentation and user resources
+
+- The AIA Ontology Suite – overview of AIAO and the companion ontologies, with links to the source repositories, HTML documentation and visualisations. [The AIA Ontology Suite](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/827261025/The+AIA+Ontology+Suite)
+- AIA Resources – the main LFDT index for documentation and learning material. [AIA Resources](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/824574046/AIA+Resources)
+- Ontology documentation – generated technical documentation for AIAO classes, properties and axioms. [AIAO HTML documentation](https://aiaont.github.io/aiao/aiao.html)
+- FAQ – background on standards, impact accounting and the objectives of the work. [AIA FAQ](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/828211210/FAQ)
+- Theoretical expositions – background material on the conceptual foundations of AIA and semantic approaches to impact accounting. [Theoretical expositions](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/827293818/Theoretical+expositions)
+
+## Contact & Support
+
+For general information, please visit our [website](https://accountableimpactcommons.org/).
+
+To chat, please join the [LFDT Discord](https://discord.gg/hyperledger). There's a channel for the [#accountable-impact-commons Lab](https://discord.com/channels/905194001349627914/1540006318125879346); activate it under “Channels and Roles”.
