@@ -10,7 +10,7 @@ Welcome to the onboarding page for the Anthropogenic Impact Accounting Ontology 
 
 ## Why use AIAO?
 
-Standardising the semantics of impact data is a prerequisite for trustworthy, decentralized impact MRV infrastructure. Without a shared vocabulary, ledgers, analytics and audit tools cannot reason over data in a comparable way.
+Standardising the semantics of impact data is a prerequisite for trustworthy, decentralised impact MRV infrastructure. Without a shared vocabulary, ledgers, analytics and audit tools cannot reason over data in a comparable way.
 
 The AIA Ontology Suite is a tool for aggregating and consolidating impact accounting data across different standards and vocabularies. The ontologies are generic enough for anthropogenic impact accounting in almost any discipline and context, including climate action impact accounting.
 
@@ -82,6 +82,6 @@ Examples contributed by users are collected in the LFDT Community registry of an
 
 ## Contact & Support
 
-For general information, please visit our [website](https://accountableimpactcommons.org/).
+For general information, see the rest of this site.
 
 To chat, please join the [LFDT Discord](https://discord.gg/hyperledger). There's a channel for the [#accountable-impact-commons Lab](https://discord.com/channels/905194001349627914/1540006318125879346); activate it under “Channels and Roles”.
