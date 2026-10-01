@@ -1,7 +1,6 @@
 ---
 title: "Getting Up to Speed with the Anthropogenic Impact Accounting Ontology"
 date: 2026-09-26
-draft: true
 summary: "An onboarding guide for teams in the IEEE ClimateChain Global Hackathon who want to work with interoperable impact data."
 tags: ["onboarding", "hackathon"]
 ---
