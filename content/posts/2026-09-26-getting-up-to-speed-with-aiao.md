@@ -67,8 +67,8 @@ It can be used in monitoring and evaluation systems, digital MRV platforms, impa
 
 Existing impact data can be mapped to the AIA ontology suite without changing the original source data. Practical examples are available for:
 
-- Manual annotation – mapping an existing project and its data to AIA classes and properties without LLM assistance. [Manual annotation example](https://github.com/aiaont/aiao/tree/main/examples/1-gs3492)
-- LLM-assisted annotation – using an LLM to help map existing project documentation and data to the ontology. [LLM-assisted annotation example](https://github.com/aiaont/aiao/tree/main/examples/2-ecoregistry126)
+- Manual annotation – mapping an existing project and its data to AIA classes and properties without LLM assistance. [Manual annotation example](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/1-gs3492)
+- LLM-assisted annotation – using an LLM to help map existing project documentation and data to the ontology. [LLM-assisted annotation example](https://github.com/Accountable-Impact-Commons/aiao/tree/main/examples/2-ecoregistry126)
 
 Examples contributed by users are collected in the LFDT Community registry of annotated data. [Community registry of annotated data](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/828047391/Community+registry+of+annotated+data)
 
@@ -76,7 +76,7 @@ Examples contributed by users are collected in the LFDT Community registry of an
 
 - The AIA Ontology Suite – overview of AIAO and the companion ontologies, with links to the source repositories, HTML documentation and visualisations. [The AIA Ontology Suite](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/827261025/The+AIA+Ontology+Suite)
 - AIA Resources – the main LFDT index for documentation and learning material. [AIA Resources](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/824574046/AIA+Resources)
-- Ontology documentation – generated technical documentation for AIAO classes, properties and axioms. [AIAO HTML documentation](https://aiaont.github.io/aiao/aiao.html)
+- Ontology documentation – generated technical documentation for AIAO classes, properties and axioms. [AIAO HTML documentation](https://accountableimpactcommons.org/aiao/aiao.html)
 - FAQ – background on standards, impact accounting and the objectives of the work. [AIA FAQ](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/828211210/FAQ)
 - Theoretical expositions – background material on the conceptual foundations of AIA and semantic approaches to impact accounting. [Theoretical expositions](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/827293818/Theoretical+expositions)
 
